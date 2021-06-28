@@ -1,0 +1,36 @@
+
+
+
+body {
+  background-color: black;
+  background-image: url(/images/food.png);
+  font-size: 15px;
+  font-family: "Shippori Mincho", serif;
+}
+
+
+#header-nav {
+  background-color: darkgoldenrod;
+  height: 130px;
+}
+
+#logo-img {
+  background-image: url(/images/Snakee.png);
+  width: 145px;
+  height: 110px;
+  background-repeat: no-repeat;
+  margin: 10px 15px 10px 10px;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  text-shadow: 2px 2px 8px #FF0000;
+  
+}
+
+

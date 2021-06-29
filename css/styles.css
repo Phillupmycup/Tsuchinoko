@@ -108,6 +108,7 @@ h1 {
 #specials  {
   background: url(../images/specials.png) no-repeat;
   background-position: center;
+  }
 
 #menuphoto span, #specials span, #map span {
   position: absolute;

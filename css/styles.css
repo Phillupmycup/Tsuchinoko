@@ -118,6 +118,34 @@ h1 {
   opacity: .8;
 }
 
+#footer {
+  max-width: 95%;
+}
+
+.panel-footer {
+  margin-top: 20px;
+  color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: #222;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+#hours span, #address span {
+  font-size: 1.4em;
+}
+
+#comments {
+  font-style: italic;
+}
+
+#comments p:nth-child(2) {
+  margin-top: 25px;
+}
+
+
+
 
 
 
@@ -145,12 +173,13 @@ h1 {
     height: 600px;
   }
 }
+  
 
 @media (max-width: 450px)  {
   h1 {
     font-size: 35px;
     
-  }
+}  
 }
 
 

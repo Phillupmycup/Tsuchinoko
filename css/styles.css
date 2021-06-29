@@ -62,6 +62,11 @@ h1 {
   background-color: #0502a0;
 }
 
+.nav-link i {
+  margin-right: 20px;
+} 
+
+
 /* END HEADER */
 
 
@@ -89,6 +94,12 @@ h1 {
 #menuphoto:hover, #specials:hover, #map:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
   }
+
+#menuphoto {
+  background: url(../);
+}
+
+
 
 
 

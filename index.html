@@ -11,28 +11,81 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500&display=swap" rel="stylesheet">
 
+ 
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 
-<body>
+<body> 
   <header>
-    <nav id="header-nav" class="navbar navbar-expand-sm">
-      <a href="index.html" class=navbar-brand>
+    <nav class="navbar navbar-expand-md navbar-dark" id="header">
+      <div class="container" id="header-nav">
+        <a class="navbar-brand" href="index.html">
           <div id="logo-img" alt="log image" class="d-none d-lg-block"> </div>
-      </a>
-      <a href="index.html" class=navbar-brand>
-        <h1>Tsuchinoko</h1>
-      </a>
-        
-       
+        </a> 
+        <a href="index.html" class=navbar-brand><h1>Tsuchinoko</h1></a>
 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+  
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="">
+              <i class="fas fa-utensils"></i><br class="d-none d-lg-block">Menu</a>
+            <a class="nav-link" href="">
+              <i class="fas fa-phone"></i></span><br class="d-none d-lg-block">Contact</a>
+            <a class="nav-link" href="">
+              <i class="far fa-map"></i><br class="d-none d-lg-block">Map</a>
+          </div>      
+        </div>
       </div>
     </nav>
-   
   </header>
+    
+
+    <div class="container-fluid" id="Main">
+      
+      <div class="jumbotron">
+        <img src="/images/food768.png" alt="Picture of restaurant" class="img-fluid d-md-none">
+      </div>
+      
+      <div>
+
+        
+
+        
+        <div class="row" id="tiles">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href=""><div id="menuphoto"><span>Menu</span></div></a>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <a href=""><div id="specials"><span>Specials</span></div></a>
+          </div>
+
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="" target="_blank"><div id="map"><span>Map</span></div></a>
+          </div>
+
+          
+
+          
+        
+        </div>
+      
+      </div>
+    
+    </div>
+
+    
+
 
 
 
@@ -42,8 +95,4 @@
 <script src="JS/Script.js"></script>
 
 </body>
-
-
-
-
 </html>

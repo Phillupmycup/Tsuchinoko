@@ -1,18 +1,28 @@
 
-
-
 body {
   background-color: black;
-  background-image: url(/images/food.png);
   font-size: 15px;
   font-family: "Shippori Mincho", serif;
 }
 
 
-#header-nav {
-  background-color: darkgoldenrod;
-  height: 130px;
+
+/* HEADER */
+
+
+.navbar-dark {
+ background-color: black;
+ margin-bottom: 30px;
+
 }
+
+#header-nav {
+  max-width: 95%;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+
 
 #logo-img {
   background-image: url(/images/Snakee.png);
@@ -24,13 +34,101 @@ body {
 
 h1 {
   font-family: 'Tangerine', cursive;
-  font-size: 40px;
+  font-size: 50px;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 30px;
-  text-shadow: 2px 2px 8px #FF0000;
-  
+  text-shadow: 20px 10px 10px #0502a0;
 }
+
+
+#collapsibleNavbar a {
+  font-size: 30px;
+  padding: 30px;
+  color: white;
+}
+
+#collapsibleNavbar a:hover {
+  color: #0502a0;
+}
+
+.navbar-toggler {
+  background-color: darkgoldenrod;
+  color: darkred;
+}  
+
+.navbar-toggler:hover {
+  background-color: #0502a0;
+}
+
+/* END HEADER */
+
+
+
+
+/* Main body */
+
+#Main {
+  max-width: 95%;
+}
+
+.jumbotron {
+  box-shadow: 0 0 70px #0502a0;
+    border: 1px solid whitesmoke;
+  margin-bottom: 30px;}
+
+#menuphoto, #specials, #map {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid whitesmoke;
+}
+
+#menuphoto:hover, #specials:hover, #map:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+  }
+
+
+
+
+
+
+@media (min-width: 1200px)  {
+  .jumbotron {
+    height: 675px;
+    background: url(/images/food.png);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+  .jumbotron {
+    height: 675px;
+    background-image: url(/images/food2000.png);
+  }
+}
+
+    @media (min-width: 768px) and (max-width: 991px)  {
+  .jumbotron {
+    background-image: url(/images/food992.png);
+    height: 600px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 

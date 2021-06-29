@@ -96,7 +96,30 @@ h1 {
   }
 
 #menuphoto {
-  background: url(../);
+  background: url(../images/menu.png) no-repeat;
+  background-position: center;
+}
+
+#specials  {
+  background: url(../images/specials.png) no-repeat;
+  background-position: center;
+}
+
+#specials  {
+  background: url(../images/specials.png) no-repeat;
+  background-position: center;
+
+#menuphoto span, #specials span, #map span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: fff;
+  background-color: #000;
+  opacity: .8;
 }
 
 

@@ -25,7 +25,7 @@ body {
 
 
 #logo-img {
-  background-image: url(/images/Snakee.png);
+  background-image: url(../images/Snakee.png);
   width: 145px;
   height: 110px;
   background-repeat: no-repeat;
@@ -98,20 +98,20 @@ h1 {
 @media (min-width: 1200px)  {
   .jumbotron {
     height: 675px;
-    background: url(/images/food.png);
+    background: url(../images/food.png);
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px)  {
   .jumbotron {
     height: 675px;
-    background-image: url(/images/food2000.png);
+    background-image: url(../images/food2000.png);
   }
 }
 
     @media (min-width: 768px) and (max-width: 991px)  {
   .jumbotron {
-    background-image: url(/images/food992.png);
+    background-image: url(../images/food992.png);
     height: 600px;
   }
 }
